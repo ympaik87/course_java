@@ -11,6 +11,13 @@ public class Example04 {
 		System.out.println(by3);
 		System.out.println(i1);
 		
+		float f1 = 1.3f;
+		float f2 = 1.5f;
+		
+		float f3 = f1 + f2;
+		
+		System.out.println(f3);
+		
 	}
 
 }
