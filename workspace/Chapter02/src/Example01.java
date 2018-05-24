@@ -32,6 +32,12 @@ public class Example01 {
 		int e = (int) d; // 자료형 변환 (type casting)
 		d = a;
 		
+		{
+			int f = 0;
+			System.out.println(a);
+		}
+		// 변수의 scope(범위) 는 중괄호 내
+//		System.out.println(f);
 	}
 
 }
