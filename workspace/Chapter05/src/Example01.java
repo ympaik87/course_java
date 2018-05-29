@@ -23,6 +23,15 @@ public class Example01 {
 		c1.seats = 5;
 		
 		Car c2 = new Car();
+		Car c3 = c1; // c1에 저장되 있는 객체의 메모리 주소값이 c3에 대입.
+					 // - c1과 c3는 같은 객체를 참조 하고 있다.
+		
+		c3.cc = 2000;
+		System.out.println(c1.cc); // 2000
+		
+		c2 = c1; // c2가 원래 참조 하고 있던 객체의 참조 카운트는 0
+				 // 객체의 참조 카운트 (reference count)가 0이 되면 Garbage Collector가
+				 // Heap memory에 위치한 객체를 삭제한다.
 		
 	}
 }
