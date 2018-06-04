@@ -2,7 +2,7 @@ package kr.co.ymp.chap09.example;
 
 public class Shape {
 
-	protected int area;
+	protected double area;
 	private String shapeName;
 	
 	public Shape(String shapeName) {

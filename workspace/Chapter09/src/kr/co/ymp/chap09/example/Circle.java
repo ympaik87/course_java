@@ -12,7 +12,7 @@ public class Circle extends Shape{
 	// 부모클래스에 있는 makeArea()를 자식클래스인 Circle 클래스가 재정의
 	// --> override
 	public void makeArea() {
-		super.area = r * r * 3; // 부모의 넓이값
+		super.area = r * r * 3.14; // 부모의 넓이값
 		// this.area도 가능
 	}
 	

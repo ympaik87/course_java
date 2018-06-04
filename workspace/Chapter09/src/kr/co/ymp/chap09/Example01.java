@@ -2,6 +2,7 @@ package kr.co.ymp.chap09;
 
 import kr.co.ymp.chap09.example.Circle;
 import kr.co.ymp.chap09.example.Rectangle;
+import kr.co.ymp.chap09.example.Triangle;
 
 public class Example01 {
 
@@ -13,6 +14,10 @@ public class Example01 {
 		Rectangle rectangle = new Rectangle(3, 4);
 		rectangle.makeArea();
 		rectangle.printArea();
+		
+		Triangle triangle = new Triangle(3, 4);
+		triangle.makeArea();
+		triangle.printArea();
 	}
 
 }
