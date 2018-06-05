@@ -1,6 +1,7 @@
 package kr.co.ymp.chap10.example;
 
-public class Writer {
+// abstract 키워드를 사용하여 추상화
+public abstract class Writer {
 	// data
 	// 가격
 	protected int price = 0;
@@ -17,8 +18,11 @@ public class Writer {
 		System.out.println(this.color + " 색으로" + contents + " 라고 적었습니다.");
 	}
 	
-	public void refill() {
-		
-	}
+//	public void refill() {
+//		
+//	}
+	
+	// method 추상화
+	public abstract void refill();
 
 }
